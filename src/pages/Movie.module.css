@@ -1,0 +1,12 @@
+.container {
+  width: 100vw;
+}
+
+.main_container {
+  padding: 3rem;
+  background-color: #f4ebd5;
+}
+
+.main_container.darkMode {
+  background-color: #2d3b43;
+}

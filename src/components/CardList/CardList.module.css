@@ -1,0 +1,8 @@
+.card_scroll {
+  overflow-x: scroll;
+}
+
+.cardListContainer {
+  display: flex;
+  gap: 10px;
+}

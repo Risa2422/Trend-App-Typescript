@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.show_category {
+  font-family: "Roboto Slab", serif;
+}
+
+.show_category.darkMode {
+  color: rgb(234, 230, 230);
+}
+/* 
+.main_container {
+  width: 100vw;
+  padding: 3rem;
+} */
+
+/* Elmer : what if I want to change the color of the body based on the state(isDark?) */

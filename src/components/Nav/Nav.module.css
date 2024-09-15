@@ -1,0 +1,42 @@
+.nav_container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 6vh;
+  width: 100%;
+  background-color: #282424;
+}
+
+.nav_show_type {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+
+.nav_screenMode {
+  width: 20px;
+  height: 20px;
+}
+
+.nav_icon {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.link {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+
+  text-decoration: none;
+}
+
+.link.selected {
+  color: rgb(200, 171, 27);
+}
