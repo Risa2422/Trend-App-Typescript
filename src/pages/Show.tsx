@@ -12,8 +12,6 @@ const Show = () => {
     <div className={styles.container}>
       <Nav isShow={true} />
       <main
-        // Elmer : is it acceptable to use stylesheets more thant one?
-        // In this case, can i use index.css for the background-color? Since Movie and Show will share the same color
         className={`${styles.main_container} ${
           isDarkMode ? styles.darkMode : ""
         }`}
