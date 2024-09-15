@@ -19,10 +19,3 @@ body {
 .show_category.darkMode {
   color: rgb(234, 230, 230);
 }
-/* 
-.main_container {
-  width: 100vw;
-  padding: 3rem;
-} */
-
-/* Elmer : what if I want to change the color of the body based on the state(isDark?) */
